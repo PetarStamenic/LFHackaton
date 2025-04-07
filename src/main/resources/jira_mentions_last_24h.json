@@ -1,0 +1,55 @@
+{
+  "issues": [
+    {
+      "id": "98765",
+      "key": "SUPPORT-201",
+      "fields": {
+        "summary": "Customer reported login issues after latest deployment",
+        "status": {
+          "name": "Open"
+        },
+        "reporter": {
+          "displayName": "Support Agent"
+        },
+        "comment": {
+          "comments": [
+            {
+              "author": {
+                "displayName": "Another Team Member"
+              },
+              "body": "Hi @Your Name, could you take a look at the logs for this user?",
+              "created": "2025-04-04T15:30:00.000+0000"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "54321",
+      "key": "FEEDBACK-055",
+      "fields": {
+        "summary": "Feedback on the new dashboard UI",
+        "status": {
+          "name": "Under Review"
+        },
+        "reporter": {
+          "displayName": "Product Manager"
+        },
+        "comment": {
+          "comments": [
+            {
+              "author": {
+                "displayName": "Designer"
+              },
+              "body": "@Your Name, what are your thoughts on the placement of this button?",
+              "created": "2025-04-04T10:15:00.000+0000"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "maxResults": 50,
+  "total": 2,
+  "startAt": 0
+}

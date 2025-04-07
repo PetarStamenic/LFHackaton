@@ -1,0 +1,73 @@
+[
+  {
+    "id": 234567890,
+    "number": 789,
+    "title": "Implement new logging framework",
+    "state": "open",
+    "html_url": "https://github.com/your-org/core-services/pull/789",
+    "created_at": "2025-04-04T09:00:00Z",
+    "updated_at": "2025-04-04T15:00:00Z",
+    "user": {
+      "login": "team-member-1",
+      "html_url": "https://github.com/team-member-1"
+    },
+    "head": {
+      "ref": "feature/new-logging",
+      "repo": {
+        "full_name": "your-org/core-services"
+      }
+    },
+    "base": {
+      "ref": "main"
+    },
+    "labels": [
+      {
+        "name": "feature"
+      },
+      {
+        "name": "ccs-team"
+      }
+    ],
+    "requested_reviewers": [
+      {
+        "login": "your-github-username"
+      },
+      {
+        "login": "another-reviewer"
+      }
+    ]
+  },
+  {
+    "id": 345678901,
+    "number": 1011,
+    "title": "Fix: Data migration script failure",
+    "state": "closed",
+    "html_url": "https://github.com/internal-tools/data-migration/pull/1011",
+    "created_at": "2025-04-03T14:45:00Z",
+    "updated_at": "2025-04-03T17:30:00Z",
+    "closed_at": "2025-04-03T17:30:00Z",
+    "merged_at": "2025-04-03T17:30:00Z",
+    "user": {
+      "login": "team-member-2",
+      "html_url": "https://github.com/team-member-2"
+    },
+    "head": {
+      "ref": "hotfix/migration-error",
+      "repo": {
+        "full_name": "internal-tools/data-migration"
+      }
+    },
+    "base": {
+      "ref": "stable"
+    },
+    "labels": [
+      {
+        "name": "bug"
+      },
+      {
+        "name": "ccs-team"
+      }
+    ],
+    "requested_reviewers": []
+  }
+]

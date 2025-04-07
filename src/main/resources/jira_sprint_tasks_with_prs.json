@@ -1,0 +1,121 @@
+[
+  {
+    "id": "12345",
+    "key": "PROJ-101",
+    "fields": {
+      "summary": "Implement user authentication",
+      "status": {
+        "name": "In Progress"
+      },
+      "assignee": {
+        "displayName": "Your Name"
+      },
+      "labels": [
+        "feature",
+        "authentication"
+      ],
+      "duedate": "2025-04-10",
+      "customfield_10001": "2025-04-08",
+      "customfield_10002": "5 days",
+      "issuelinks": [
+        {
+          "type": {
+            "name": "Development",
+            "inward": "is developed by",
+            "outward": "develops"
+          },
+          "outwardIssue": {
+            "key": "GH-REPO-123",
+            "self": "https://api.github.com/repos/your-org/your-repo/pulls/123",
+            "fields": {
+              "summary": "Fix: Authentication bug"
+            }
+          }
+        },
+        {
+          "type": {
+            "name": "Development",
+            "inward": "is developed by",
+            "outward": "develops"
+          },
+          "outwardIssue": {
+            "key": "GH-OTHER-456",
+            "self": "https://api.github.com/repos/another-org/another-repo/pulls/456",
+            "fields": {
+              "summary": "Refactor user profile API"
+            }
+          }
+        }
+      ]
+    },
+    "sprint": {
+      "sprint_end_date": "2025-04-11",
+      "days_until_sprint_end": 7
+    }
+  },
+  {
+    "id": "67890",
+    "key": "PROJ-105",
+    "fields": {
+      "summary": "Write unit tests for login module",
+      "status": {
+        "name": "To Do"
+      },
+      "assignee": {
+        "displayName": "Your Name"
+      },
+      "labels": [
+        "testing",
+        "unit-tests"
+      ],
+      "duedate": "2025-04-12",
+      "customfield_10001": null,
+      "customfield_10002": "3 days",
+      "issuelinks": []
+    },
+    "sprint": {
+      "sprint_end_date": "2025-04-11",
+      "days_until_sprint_end": 7
+    }
+  },
+  {
+    "id": "13579",
+    "key": "PROJ-112",
+    "fields": {
+      "summary": "Review API documentation",
+      "status": {
+        "name": "Done"
+      },
+      "assignee": {
+        "displayName": "Your Name"
+      },
+      "labels": [
+        "documentation",
+        "review"
+      ],
+      "duedate": "2025-04-05",
+      "customfield_10001": "2025-04-04",
+      "customfield_10002": "1 day",
+      "issuelinks": [
+        {
+          "type": {
+            "name": "Development",
+            "inward": "is developed by",
+            "outward": "develops"
+          },
+          "outwardIssue": {
+            "key": "GH-DOCS-789",
+            "self": "https://api.github.com/repos/docs-org/api-docs/pulls/789",
+            "fields": {
+              "summary": "Update authentication documentation"
+            }
+          }
+        }
+      ]
+    },
+    "sprint": {
+      "sprint_end_date": "2025-04-11",
+      "days_until_sprint_end": 7
+    }
+  }
+]
