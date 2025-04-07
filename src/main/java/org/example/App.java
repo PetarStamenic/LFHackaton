@@ -43,7 +43,7 @@ public class App {
     private static final List<String> SCOPES = Arrays.asList(CalendarScopes.CALENDAR, CalendarScopes.CALENDAR_EVENTS);
     private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
 
-    private static final String API_KEY = "AIzaSyB3W9QclSVp4I2CLjUQHr1ODeUS8sk3SEo";
+    private static final String API_KEY = "REDACTED";
     private static final String GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + API_KEY;
     private static final String prompt = "You are a helpful assistant. You can only respond with the function name that I can call. Do not provide any other information or context. The function names are: list today's events, create event and invite, deny event by ID, accept event by ID, remove accepted event by ID, invite to event, get next event and Meet link, get not accepted events, get upcoming events.";
 
